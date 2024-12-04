@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.boxOne {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.headerLinks {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerOne {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding-left: 10%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:active, .link:visited {
+    color: #f9faf8;
+}
+
+.link:hover {
+    color: greenyellow;
+}
+
+.boxTwo {
+    width: 100vw;
+}
+
+.boxThree {
+    width: 100vw;
+}
+
+.boxFour {
+    width: 100vw;
+}
+
+.boxFive {
+    width: 100vw;
+}
+
+.boxSix {
+    width: 100vw;
+}
+
+.boxSix {
+    width: 100vw;
+}
