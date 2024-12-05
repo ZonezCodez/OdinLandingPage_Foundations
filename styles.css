@@ -7,7 +7,7 @@ body {
 .boxOne {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
@@ -40,6 +40,23 @@ body {
 
 .boxTwo {
     width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    font-size: 46px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.twoSub {
+    width: 50%;
+    font-size: 18px;
 }
 
 .boxThree {
