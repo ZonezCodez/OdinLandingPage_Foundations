@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .boxOne {
@@ -41,11 +43,30 @@ body {
 .boxTwo {
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #f9faf8;
     background-color: #1F2937;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.twoTwo {
+    width: 25%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+}
+
+.btnsignUp {
+    background-color: #3882F6;
+    border-radius:5px;
+    padding: 5px 15px 5px 15px;
+    color: #f9faf8;
+    border-width: 0;
+    cursor: pointer;
 }
 
 h1 {
@@ -60,7 +81,21 @@ h1 {
 }
 
 .boxThree {
-    width: 100vw;
+    width: 50%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.threetwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containers>img {
+    height: 150px;
+    width: 150px;
+    background-color: #3882F6;
 }
 
 .boxFour {
@@ -78,3 +113,4 @@ h1 {
 .boxSix {
     width: 100vw;
 }
+
